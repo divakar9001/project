@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: rgb(173, 170, 170);
+        }
+
+        h1 {
+            color: green;
+            text-transform: uppercase;
+        }
+
+        p {
+            line-height: 20px;
+            color: orangered;
+        }
+
+        .first {
+            background-color: rgb(1, 49, 33);
+            color: white;
+        }
+
+        .first h1 {
+            color: red;
+            background-color: orangered;
+            padding: 10px;
+        }
+
+        .first p {
+            color: green;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>avaScript (JS) is a versatile and popular programming language</h1>
+        <p> avaScript (JS) is a versatile and popular programming language primarily used to make web pages dynamic and
+            interactive. It's a lightweight, cross-platform, and interpreted language that can be used on both the
+            client-side (within web browsers) and the server-side. JavaScript allows developers to manipulate HTML and
+            CSS, calculate data, and validate user input. avaScript (JS) is a versatile and popular programming language
+            primarily used to make web pages dynamic and interactive. It's a lightweight, cross-platform, and
+            interpreted language that can be used on both the client-side (within web browsers) and the server-side.
+            JavaScript allows developers to manipulate HTML and CSS, calculate data, and validate user input. avaScript
+            (JS) is a versatile and popular programming language primarily used to make web pages dynamic and
+            interactive. It's a lightweight, cross-platform, and interpreted language that can be used on both the
+            client-side (within web browsers) and the server-side. JavaScript allows developers to manipulate HTML and
+            CSS, calculate data, and validate user input. </p>
+    </div>
+
+
+    <script>
+        var jbody = document.querySelector('body');
+        jbody.addEventListener("click", () => {
+            jbody.classList.toggle('first');
+        })
+
+    </script>
+
+</body>
+
+</html>
